@@ -84,7 +84,14 @@ public class HomePageTest extends TestBase {
 	               }
 	               
 }
-
+ 
+      @Test()
+       public void validateText()
+       {
+    	   String s="Prerana";
+    	  System.out.println("s"); 
+    	
+       }
          
 	@AfterTest
 	public void tearDown() {
